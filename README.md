@@ -1,7 +1,9 @@
 # GrEp
 GrEp is a fast and efficient graph-based post-processing workflow for the classification of epithelial cells into normal and malignant as depicted in the Figure below.
 
+<!---
 ![Pipeline_overview_new2_very_small](https://github.com/user-attachments/assets/ae6c7570-e278-47aa-8c6b-2bc7f4bcdb5c)
+-->
 
 ## Setup GrEp Environment
 
