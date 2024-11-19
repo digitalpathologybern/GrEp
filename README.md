@@ -41,13 +41,13 @@ The model returns:
 To run the pipeline on a folder containing tiles: 
 
 ```
-srun python3.10 main.py \
---tiles_path 'Path_to_tiles/images/' \
+srun python3.10 run_tile_inference.py \
+--tiles_path 'Path_to_tiles_folder' \
 --img_mod 'tif' \
---ep_centers_path 'Path_to_epithelial_nuclei_mat_folder/nuclei_ep/' \
+--ep_centers_path 'Path_to_epithelial_nuclei_mat_folder' \
 --resnet_path 'Path_to_resnet_weight/Resnet18_pretrained.pt' \
 --gcn_path 'Path_to_GCN_weight/GCN.pt' \
---save_path 'Path_to_save_predictions/Results/'
+--save_path 'Path_to_save_predictions'
 --save_overlays "False"
 ```
 
